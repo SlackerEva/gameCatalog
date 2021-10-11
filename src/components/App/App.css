@@ -1,0 +1,11 @@
+.page {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 2% 2%;
+  justify-content: space-between;
+  color: white;
+}

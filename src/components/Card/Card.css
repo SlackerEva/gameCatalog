@@ -1,0 +1,42 @@
+.card {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-block {
+  align-self: flex-end;
+  width: 100%;
+  padding: 5% 10%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #383e49;
+}
+
+.card__name {
+  margin: 0;
+}
+
+.card__like {
+  display: flex;
+}
+
+.card__like-checkbox {
+  display: none;
+}
+
+.card__like-mark {
+  width: 25px;
+  background: #313131;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.09);
+  border-radius: 50px;
+  border: solid 2px #FFF;
+}
+
+.card__like-checkbox:checked + .card__like-mark {
+  background: #2BE080;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.09);
+}

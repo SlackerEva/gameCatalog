@@ -1,0 +1,23 @@
+.nav {
+  width: 15%;
+}
+
+.nav__wraper {
+  display: block;
+  text-align: left;
+}
+
+.nav__link {
+  display: flex;
+  justify-content: space-between;
+  border: solid 2px black;
+  padding: 0 2%;
+  margin-bottom: 3%;
+  color: white;
+  background-color: #383e49;
+  text-decoration: none;
+}
+
+.nav__count {
+  margin: 0;
+}
